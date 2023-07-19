@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KUKEight Studio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h1 class="title">
+          <div class="d-inline underlined">KUKEight</div>
+          Studio
+        </h1>
+        <div class="text-center">
+          <h3 class="welcome">Welcome...wanderers!</h3>
+        </div>
+      </div>
+      <div class="description text-center pt-5">
+        <div>Unleash Your Imagination:</div>
+        <div class="dis-inline">Discover The World Of Novels Within Us...</div>
+        <div class="dis-inline">
+          Discover The World Of Novels Written By The Greatest...
+        </div>
+        <div class="dis-inline">
+          Discover The World Of Novels Written By You!
+        </div>
+      </div>
+      <div class="sign-up-login text-center" style="padding-top: 100px">
+        <h4>
+          Not a user yet? Well, what are you waiting for? <br />
+          Join the Authors, Read and be cool!!
+        </h4>
+        <div class="d-flex d-flex-center">
+          <div
+            class="button sign-up"
+            data-toggle="tooltip"
+            title="For those of you who doesn't have an account ;)"
+          >
+            Sign Up
+          </div>
+          <div
+            class="button login"
+            data-toggle="tooltip"
+            title="Login if you're one of us :) "
+          >
+            Login
+          </div>
+        </div>
+
+        <!-- Creation Modal -->
+        <div
+          class="modal fade sign-up-modal"
+          id="myModalCreate"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myModalLabel"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Join us now!</h4>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <form class="sign-up-form">
+                <div class="modal-body">
+                  <div class="form-group pt-3">
+                    <label style="float: left">Email:</label>
+                    <input type="text" class="form-control" required />
+                  </div>
+                  <div class="form-group pt-3">
+                    <label style="float: left"
+                      >Username ( Globally displayed, Unique ):</label
+                    >
+                    <input type="text" class="form-control" required />
+                  </div>
+                  <div class="form-group pt-3">
+                    <label style="float: left">Age:</label>
+                    <input type="number" class="form-control" required />
+                  </div>
+                  <div class="form-group pt-3">
+                    <label style="float: left">Country:</label>
+                    <input type="text" class="form-control" required />
+                  </div>
+                  <div class="form-group pt-3">
+                    <label style="float: left">Password:</label>
+                    <input type="text" class="form-control" required />
+                  </div>
+                  <div class="form-group pt-3">
+                    <label style="float: left">Confirm ur Password:</label>
+                    <input type="text" class="form-control" required />
+                  </div>
+                  <div class="form-group pt-3">
+                    <label style="float: left"
+                      >Langugae ( You can switch later ):</label
+                    >
+                    <select required>
+                      <option value="" selected disabled>Select below:</option>
+                      <option value="khmer">Khmer</option>
+                      <option value="english">English</option>
+                    </select>
+                  </div>
+                  <div class="form-group pt-3">
+                    <label style="float: left">You are a...:</label>
+                    <div class="form-group">
+                      <select required>
+                        <option value="" selected disabled>
+                          Select below:
+                        </option>
+                        <option value="musician">Musician</option>
+                        <option value="novelist">Novelist</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-default"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="submit" class="btn btn-primary create-btn">
+                    Create Your Account!
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Login Modal -->
+        <div
+          class="modal fade login-modal"
+          id="myModalCreate"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myModalLabel"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Welcome Back To The Studio!</h4>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <form class="sign-up-form">
+                <div class="modal-body">
+                  <div class="form-group pt-3">
+                    <label style="float: left">Email:</label>
+                    <input type="text" class="form-control" required />
+                  </div>
+                  <div class="form-group pt-3">
+                    <label style="float: left">Password:</label>
+                    <input type="text" class="form-control" required />
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-default"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="submit" class="btn btn-primary create-btn">
+                    Log in
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer d-flex">
+      <a href="./home.html">Home</a>
+      <a href="./aboutus.html">About Us</a>
+      <a href="./support.html">Support Us</a>
+      <a href="./help.html">Help</a>
+      <a href="./faq.html">FAQ</a>
+      <a href="./privacy.html">Privact & Policy</a>
+      <a href="./license.html">Licensing</a>
+    </div>
+  </body>
+</html>
