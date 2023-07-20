@@ -22,7 +22,7 @@ const displayText = () => {
   displayNextLine();
 };
 
-function launchModal() {
+const launchModal = () => {
   $(".sign-up").on("click", function () {
     $(".sign-up-modal").modal("show");
   });
@@ -35,5 +35,9 @@ function launchModal() {
     event.preventDefault();
     alert("Thank q for trying out our demo hehe.");
   });
+
+  $(".close").on("click", function () {
+    $(".modal").modal("hide");
+  });
   return;
-}
+};
