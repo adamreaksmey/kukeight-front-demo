@@ -6,11 +6,15 @@ body {
   font-family: "Dosis", sans-serif !important;
   color: antiquewhite !important;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
 }
 
 a {
   color: antiquewhite !important;
+}
+
+.gap-10 {
+  gap: 10px;
 }
 
 .footer {
