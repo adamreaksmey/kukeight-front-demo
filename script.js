@@ -48,9 +48,9 @@ const launchModal = () => {
 // Components includes
 const components = () => {
   // Footer
-  $('.footer').load('../components/footer.html');
-  $('.login-modal').load('../components/login.html');
-  $('.sign-up-modal').load('../components/signup.html');
-  $('.head').load('../components/head.html');
+  $('.footer').load(`${window.location.href}components/footer.html`);
+  $('.login-modal').load(`${window.location.href}components/login.html`);
+  $('.sign-up-modal').load(`${window.location.href}components/signup.html`);
+  $('.head').load(`${window.location.href}components/head.html`);
   return;
 }
