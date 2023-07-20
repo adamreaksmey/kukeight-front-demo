@@ -1,7 +1,10 @@
-$(document).ready(function () {
-  displayText();
+// import "../"
+
+$(document).ready(async function () {
+  await displayText();
   $('[data-toggle="tooltip"]').tooltip();
   launchModal();
+  await components();
 });
 
 const displayText = () => {
@@ -41,3 +44,13 @@ const launchModal = () => {
   });
   return;
 };
+
+// Components includes
+const components = () => {
+  // Footer
+  $('.footer').load('../components/footer.html');
+  $('.login-modal').load('../components/login.html');
+  $('.sign-up-modal').load('../components/signup.html');
+  $('.head').load('../components/head.html');
+  return;
+}

@@ -1,0 +1,75 @@
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h4 class="modal-title">Join us now!</h4>
+      <button
+        type="button"
+        class="close"
+        data-dismiss="modal"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <form class="sign-up-form">
+      <div class="modal-body">
+        <div class="form-group pt-3">
+          <label style="float: left">Email:</label>
+          <input type="text" class="form-control" required />
+        </div>
+        <div class="form-group pt-3">
+          <label style="float: left"
+            >Username ( Globally displayed, Unique ):</label
+          >
+          <input type="text" class="form-control" required />
+        </div>
+        <div class="form-group pt-3">
+          <label style="float: left">Age:</label>
+          <input type="number" class="form-control" required />
+        </div>
+        <div class="form-group pt-3">
+          <label style="float: left">Country:</label>
+          <input type="text" class="form-control" required />
+        </div>
+        <div class="form-group pt-3">
+          <label style="float: left">Password:</label>
+          <input type="text" class="form-control" required />
+        </div>
+        <div class="form-group pt-3">
+          <label style="float: left">Confirm ur Password:</label>
+          <input type="text" class="form-control" required />
+        </div>
+        <div class="form-group pt-3">
+          <label style="float: left">Langugae ( You can switch later ):</label>
+          <select required>
+            <option value="" selected disabled>Select below:</option>
+            <option value="khmer">Khmer</option>
+            <option value="english">English</option>
+          </select>
+        </div>
+        <div class="form-group pt-3">
+          <label style="float: left">You are a...:</label>
+          <div class="form-group">
+            <select required>
+              <option value="" selected disabled>Select below:</option>
+              <option value="musician">Musician</option>
+              <option value="novelist">Novelist</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-default close"
+          data-dismiss="modal"
+        >
+          Close
+        </button>
+        <button type="submit" class="btn btn-primary create-btn">
+          Create Your Account!
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
