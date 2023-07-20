@@ -1,7 +1,19 @@
-<a href="../home/index.html">Home</a>
-<a href="../about-us/index.html">About Us</a>
-<a href="../support/index.html">Support Us</a>
-<a href="../help/index.html">Help</a>
-<a href="../faq/index.html">FAQ</a>
-<a href="../privacy/index.html">Privact & Policy</a>
-<a href="../license/index.html">Licensing</a>
+<a class="home">Home</a>
+<a class="about-us">About Us</a>
+<a class="support-us">Support Us</a>
+<a class="help">Help</a>
+<a class="faq">FAQ</a>
+<a class="privacy">Privacy & Policy</a>
+<a class="license">Licensing</a>
+
+<script type="text/javaScript">
+  $(document).ready(function () {
+    $('.home').attr('href', window.location.href + `home/index.html`);
+    $('.about-us').attr('href', window.location.href + `about-us/index.html`);
+    $('.support-us').attr('href', window.location.href + `support/index.html`);
+    $('.faq').attr('href', window.location.href + `faq/index.html`);
+    $('.help').attr('href', window.location.href + `help/index.html`);
+    $('.license').attr('href', window.location.href + `license/index.html`);
+    $('.privacy').attr('href', window.location.href + `privacy/index.html`);
+  })
+</script>
