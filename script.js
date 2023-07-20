@@ -33,11 +33,6 @@ const launchModal = () => {
     $(".login-modal").modal("show");
   });
 
-  $(".sign-up-form").submit(function (event) {
-    event.preventDefault();
-    alert("Thank q for trying out our demo hehe.");
-  });
-
   $(".close").on("click", function () {
     $(".modal").modal("hide");
   });
