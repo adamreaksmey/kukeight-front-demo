@@ -9,6 +9,12 @@ body {
   background-size: 100% auto;
 }
 
+.eye-password {
+  border: none;
+  position: absolute;
+  left: 26.5em;
+}
+
 a {
   color: antiquewhite !important;
 }

@@ -4,6 +4,7 @@ $(document).ready(function () {
   slideshowText();
   launchModal();
   components();
+  revealPassword();
 });
 
 const slideshowText = () => {
@@ -47,4 +48,16 @@ const components = () => {
   $(".sign-up-modal").load(`${window.location.href}components/signup.html`);
   $(".head").load(`${window.location.href}components/head.html`);
   return;
+};
+
+const revealPassword = () => {
+  const passwordField = $(".login-password, .confirm-signup-password, .signup-password");
+  const type = passwordField.attr("type");
+  if (type === "password") {
+    passwordField.attr("type", "text");
+    $("#toggle-password i").removeClass("fa-eye").addClass("fa-eye-slash");
+  } else {
+    passwordField.attr("type", "password");
+    $("#toggle-password i").removeClass("fa-eye-slash").addClass("fa-eye");
+  }
 };
