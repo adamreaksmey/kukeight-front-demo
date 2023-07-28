@@ -4,7 +4,7 @@ Welcome to the KUKeight Studio Front Page Demo!
 
 ## Introduction
 
-KUKeight Studio is a team of two pretty girls and a guy, a team of 2 pretty girls and a guy whose bandaid makes him look pretty 😎. This front page demo showcases some of the design and development skills that our team possesses.
+KUKeight Studio is a team of 2 pretty girls and a guy whose bandaid makes him look pretty 😎. This front page demo showcases some of the design and development skills that our team possesses.
 
 ## Technologies Used
 
