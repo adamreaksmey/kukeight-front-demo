@@ -5,6 +5,7 @@ $(document).ready(function () {
   launchModal();
   components();
   revealPassword();
+  $("#draggable-element").draggable();
 });
 
 const slideshowText = () => {

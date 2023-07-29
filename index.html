@@ -3,54 +3,78 @@
   <head>
     <title>KUKEight Studio</title>
     <link rel="stylesheet" href="./style/top/style.css" />
+    <link rel="icon" type="image/*" href="./image/logo.png" />
     <!-- CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
 
     <!-- JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
     <script src="./script.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="top">
-        <h1 class="title">
-          <div class="d-inline underlined">KUKEight</div>
-          Studio
-        </h1>
-        <div class="text-center">
-          <h3 class="welcome">Welcome...wanderers!</h3>
+        <div class="title">
+          <img
+            src="./image/logo.png"
+            class="logo-top"
+          />
+          <h1 style="font-size: 3vw; font-weight: bold">
+            <div class="d-inline underlined">KUKEight</div>
+            Studio
+          </h1>
+          <div class="text-center">
+            <h3 class="welcome">Welcome...wanderers!</h3>
+          </div>
         </div>
       </div>
-      <div class="description text-center pt-5">
-        <div>Unleash Your Imagination:</div>
-        <div class="dis-inline">Discover The World Of Novels Within Us...</div>
-        <div class="dis-inline">
-          Discover The World Of Novels Written By The Greatest...
+      <div class="description text-left">
+        <div style="padding-bottom: 5vw">
+          <div>Unleash Your Imagination:</div>
+          <div class="dis-inline">
+            Discover The World Of Novels Within Us...
+          </div>
+          <div class="dis-inline">
+            Discover The World Of Novels Written By The Greatest...
+          </div>
+          <div class="dis-inline">
+            Discover The World Of Novels Written By You!
+          </div>
         </div>
-        <div class="dis-inline">
-          Discover The World Of Novels Written By You!
-        </div>
-      </div>
-      <div class="sign-up-login text-center" style="padding-top: 100px">
-        <h4>
+
+        <div id="draggable-element">
           Not a user yet? Well, what are you waiting for? <br />
           Join the Authors, Read and be cool!!
-        </h4>
-        <div class="d-flex justify-content-center align-items-center gap-10">
+        </div>
+      </div>
+      <div
+        class="sign-up-login text-center"
+        style="padding-top: 100px"
+        id="draggable-element"
+      >
+        <div
+          class="d-flex justify-content-center align-items-center sign-up-login-btn-group"
+        >
           <div
             class="button sign-up"
             data-toggle="tooltip"
+            id="draggable-element"
             title="For those of you who doesn't have an account ;)"
           >
             Sign Up
           </div>
           <div
             class="button login"
+            id="draggable-element"
             data-toggle="tooltip"
             title="Login if you're one of us :) "
           >

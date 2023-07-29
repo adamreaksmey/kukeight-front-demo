@@ -2,11 +2,25 @@
 
 body {
   padding: 0;
-  background-image: url(./image/bookshelfs.jpg);
+  background-image: url(../../image/main-background.jpeg);
   font-family: "Dosis", sans-serif !important;
-  color: antiquewhite !important;
+  color: rgb(45, 31, 13) !important;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  font-weight: bold;
+}
+
+img.logo-top {
+  position: fixed;
+  width: 8vw;
+  left: 52vw;
+  top: 8vw;
+  filter: drop-shadow(0px 6px 6px black);
+}
+
+img.logo-top:hover {
+  width: 10vw;
+  cursor: pointer;
 }
 
 .eye-password {
@@ -16,11 +30,17 @@ body {
 }
 
 a {
-  color: antiquewhite !important;
+  color: rgb(208 148 65) !important;
+  font-weight: bold;
+  font-size: 1.2vw;
 }
 
-.gap-10 {
-  gap: 10px;
+.sign-up-login-btn-group {
+  top: 34.9vw;
+  position: fixed;
+  left: 52.6vw;
+  font-size: 1.01vw;
+  gap: 0.5vw;
 }
 
 .footer {
@@ -46,8 +66,11 @@ a {
 .title {
   text-align: center;
   width: 100%;
-  font-size: 3.5rem;
   margin-bottom: 0px;
+  position: fixed;
+  left: 21vw;
+  top: 9vw;
+  font-size: 4vw;
 }
 
 .button {
@@ -56,8 +79,9 @@ a {
 
 .sign-up {
   background: #71a969;
-  padding: 6px;
-  border-radius: 10px;
+  padding: 0.4vw;
+  border-radius: 1vw;
+  box-shadow: -0.5vw 0.7vw 4px rgb(36 20 20 / 90%);
 }
 
 .sign-up:hover {
@@ -66,8 +90,9 @@ a {
 
 .login {
   background: #b8c139;
-  padding: 6px;
-  border-radius: 10px;
+  padding: 0.4vw;
+  border-radius: 1vw;
+  box-shadow: 0.5vw 0.7vw 4px rgb(36 20 20 / 90%);
 }
 
 .login:hover {
@@ -97,16 +122,17 @@ a {
 }
 
 .description {
-  /* position: fixed; */
-  font-size: 20px;
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
+  position: fixed;
+  top: 21vw;
+  left: 15vw;
+  font-weight: bold;
+  font-size: 1.6vw;
 }
 
 .welcome {
-  margin-top: 14px;
-  font-size: 1.5rem;
-  font-weight: 400;
+  margin-top: 1vw;
+  font-size: 1.5vw;
+  font-weight: bold;
 }
 
 button.close {
