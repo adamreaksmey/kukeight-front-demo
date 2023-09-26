@@ -20,6 +20,6 @@ To view the KUKeight Studio Front Page Demo, simply click on the link provided i
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE). Feel free to use the code in this repository as a starting point for your own projects or to learn from. 
+This repository is licensed under the [MIT License](LICENSE). Feel free to use the code in this repository as a starting point for your own projects or to learn from.
 
 Thank you for visiting KUKeight Studio!

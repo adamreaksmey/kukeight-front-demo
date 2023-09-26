@@ -52,7 +52,9 @@ const components = () => {
 };
 
 const revealPassword = () => {
-  const passwordField = $(".login-password, .confirm-signup-password, .signup-password");
+  const passwordField = $(
+    ".login-password, .confirm-signup-password, .signup-password",
+  );
   const type = passwordField.attr("type");
   if (type === "password") {
     passwordField.attr("type", "text");
